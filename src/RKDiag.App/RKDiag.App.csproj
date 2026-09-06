@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>RK-Diag</AssemblyName>
+    <RootNamespace>RKDiag.App</RootNamespace>
+    <Product>RK-Diag</Product>
+    <Title>RK-Diag</Title>
+    <Description>Low-overhead hardware monitor for Samsung Galaxy Book.</Description>
+    <Version>0.3.2</Version>
+    <FileVersion>0.3.2.0</FileVersion>
+    <ApplicationIcon>..\GalaxyMonitor.Diagnostics\Assets\RK-Diag.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GalaxyMonitor.Core\GalaxyMonitor.Core.csproj" />
+    <ProjectReference Include="..\GalaxyMonitor.Windows\GalaxyMonitor.Windows.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\GalaxyMonitor.Diagnostics\Assets\RK-Diag.png">
+      <Link>Assets\RK-Diag.png</Link>
+    </Resource>
+  </ItemGroup>
+</Project>

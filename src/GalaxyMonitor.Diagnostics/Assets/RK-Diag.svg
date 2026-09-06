@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">RK-Diag</title>
+  <desc id="desc">Geometrický monogram RK s diagnostickou křivkou a měřicími body.</desc>
+  <defs>
+    <clipPath id="tile"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0B2B4C"/>
+  <g clip-path="url(#tile)" fill="none" stroke="#0AA9BE" stroke-width="10" stroke-linecap="round" opacity=".34">
+    <path d="M286 70h226M286 142h226M286 214h226M320 48v190M394 48v190M468 48v190"/>
+  </g>
+  <path d="M278 154h39l25-51 29 101 33-135 34 73h74" fill="none" stroke="#0AA9BE" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#FFAA00">
+    <circle cx="342" cy="103" r="14"/>
+    <circle cx="371" cy="204" r="14"/>
+    <circle cx="404" cy="69" r="16"/>
+    <circle cx="438" cy="142" r="14"/>
+  </g>
+  <path d="m269 301 88-97h76l-86 97 90 89h-79z" fill="#09A7BE"/>
+  <path fill="#FFFFFF" fill-rule="evenodd" d="M92 390V204h119c50 0 80 27 80 70 0 34-18 56-47 67l42 49h-70l-38-46h-24v46H92Zm62-139v48h53c14 0 22-9 22-24 0-16-9-24-22-24h-53Z"/>
+</svg>

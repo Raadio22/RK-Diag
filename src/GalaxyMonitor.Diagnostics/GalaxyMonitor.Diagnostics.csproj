@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>RK-Diag.Probe</AssemblyName>
+    <Product>RK-Diag Probe</Product>
+    <Title>RK-Diag Probe</Title>
+    <Description>Low-overhead hardware diagnostics for Samsung Galaxy Book4 Pro 360.</Description>
+    <ApplicationIcon>Assets\RK-Diag.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GalaxyMonitor.Core\GalaxyMonitor.Core.csproj" />
+    <ProjectReference Include="..\GalaxyMonitor.History\GalaxyMonitor.History.csproj" />
+    <ProjectReference Include="..\GalaxyMonitor.Windows\GalaxyMonitor.Windows.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Run diagnostics.cmd" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Assets\RK-Diag.png" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="Assets\RK-Diag.svg" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

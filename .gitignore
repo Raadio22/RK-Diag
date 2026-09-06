@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+work/
+outputs/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+diagnostics-*.json
